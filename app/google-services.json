@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "744646031199",
+    "project_id": "siyakhula-app",
+    "storage_bucket": "siyakhula-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744646031199:android:4ecab5cac094fbaf2da8ea",
+        "android_client_info": {
+          "package_name": "com.example.siyakhula"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMu7CGoI8VsaECubW-yCygC6-FZvYaoxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

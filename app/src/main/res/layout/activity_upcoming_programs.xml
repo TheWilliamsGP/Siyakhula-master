@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Upcoming_Programs">
+
+
+    <ImageView
+        android:id="@+id/iv_header"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/ourprograms"
+        tools:ignore="MissingConstraints"
+
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_FirstThousandYears"
+            android:layout_width="97dp"
+            android:layout_height="89dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/firstprogram"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="153dp"
+            android:layout_marginLeft="20dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/returnBTN"
+            android:layout_width="56dp"
+            android:layout_height="53dp"
+            android:backgroundTint="#90DB82"
+            android:onClick="returnClick"
+            android:text="X"
+            android:layout_marginLeft="150dp"
+            android:textAlignment="textEnd"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="329dp"
+            tools:layout_editor_absoluteY="154dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="194dp"
+        android:layout_height="27dp"
+        android:text="FIRST THOUSAND DAYS"
+        android:textColor="#90DB82"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="242dp"
+        android:layout_marginLeft="20dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="We provide a biopsychosocial support program to caregivers and infants. This program focuses on the first thousand days of a child’s life and their road to health as well as providing support to the primary caregiver. The first Thousand Days program also has a specialized focus on fathers, in partnership with Sikunye."
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="154dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/iv_FamilySupport"
+        android:layout_width="103dp"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/familyprogram"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="415dp"
+        android:layout_marginLeft="20dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView2Heading"
+        android:layout_width="225dp"
+        android:layout_height="27dp"
+        android:text="FAMILY SUPPORT PROGRAM"
+        android:textColor="#90DB82"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="520dp"
+        android:layout_marginLeft="20dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="We provide a biopsychosocial support program to caregivers and infants. This program focuses on the first thousand days of a child’s life and their road to health as well as providing support to the primary caregiver. The first Thousand Days program also has a specialized focus on fathers, in partnership with Sikunye."
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="30dp"
+        android:layout_marginLeft="20dp"
+        tools:layout_editor_absoluteY="559dp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="MissingConstraints"/>
+
+            <ImageView
+                android:id="@+id/iv_womenSupport"
+                android:layout_width="103dp"
+                android:layout_height="99dp"
+                app:srcCompat="@drawable/womenprograms"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="415dp"
+                android:layout_marginLeft="20dp"
+                tools:ignore="MissingConstraints"/>
+
+            <TextView
+                android:id="@+id/textViewWomenHeading"
+                android:layout_width="225dp"
+                android:layout_height="27dp"
+                android:text="WOMAN'S SUPPORT PROGRAM"
+                android:textColor="#90DB82"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="520dp"
+                android:layout_marginLeft="20dp"
+                tools:ignore="MissingConstraints"/>
+
+            <TextView
+                android:id="@+id/textViewWomen"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="We provide a biopsychosocial support program to caregivers and infants. This program focuses on the first thousand days of a child’s life and their road to health as well as providing support to the primary caregiver. The first Thousand Days program also has a specialized focus on fathers, in partnership with Sikunye."
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="30dp"
+                android:layout_marginLeft="20dp"
+                tools:layout_editor_absoluteY="559dp"
+                tools:ignore="MissingConstraints"/>
+
+            <ImageView
+                android:id="@+id/iv_menSupport"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="20dp"
+                app:srcCompat="@drawable/mensprograms"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="415dp" />
+
+            <TextView
+                android:id="@+id/textViewmenHeading"
+                android:layout_width="225dp"
+                android:layout_height="27dp"
+                android:text="MEN'S SUPPORT PROGRAM"
+                android:textColor="#90DB82"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="520dp"
+                android:layout_marginLeft="20dp"
+                tools:ignore="MissingConstraints"/>
+
+            <TextView
+                android:id="@+id/textViewmen"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="We provide a biopsychosocial support program to caregivers and infants. This program focuses on the first thousand days of a child’s life and their road to health as well as providing support to the primary caregiver. The first Thousand Days program also has a specialized focus on fathers, in partnership with Sikunye."
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="30dp"
+                android:layout_marginLeft="20dp"
+                tools:layout_editor_absoluteY="559dp"
+                tools:ignore="MissingConstraints"/>
+
+            <ImageView
+                android:id="@+id/iv_girlsSupport"
+                android:layout_width="103dp"
+                android:layout_height="99dp"
+                app:srcCompat="@drawable/girlsprogram"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="415dp"
+                android:layout_marginLeft="20dp"
+                tools:ignore="MissingConstraints"/>
+
+            <TextView
+                android:id="@+id/textViewgirlsHeading"
+                android:layout_width="225dp"
+                android:layout_height="27dp"
+                android:text="YOUNG GIRLS PROGRAM"
+                android:textColor="#90DB82"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="520dp"
+                android:layout_marginLeft="20dp"
+                tools:ignore="MissingConstraints"/>
+
+            <TextView
+                android:id="@+id/textViewGirls"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="We provide a biopsychosocial support program to caregivers and infants. This program focuses on the first thousand days of a child’s life and their road to health as well as providing support to the primary caregiver. The first Thousand Days program also has a specialized focus on fathers, in partnership with Sikunye."
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="30dp"
+                android:layout_marginLeft="20dp"
+                tools:layout_editor_absoluteY="559dp"
+                tools:ignore="MissingConstraints"/>
+
+            <ImageView
+                android:id="@+id/iv_BoysSupport"
+                android:layout_width="103dp"
+                android:layout_height="99dp"
+                app:srcCompat="@drawable/boysprogram"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="415dp"
+                android:layout_marginLeft="20dp"
+                tools:ignore="MissingConstraints"/>
+
+            <TextView
+                android:id="@+id/textViewBoysHeading"
+                android:layout_width="225dp"
+                android:layout_height="27dp"
+                android:text="YOUNG BOYS PROGRAM"
+                android:textColor="#90DB82"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="520dp"
+                android:layout_marginLeft="20dp"
+                tools:ignore="MissingConstraints"/>
+
+            <TextView
+                android:id="@+id/textViewBoys"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="We provide a biopsychosocial support program to caregivers and infants. This program focuses on the first thousand days of a child’s life and their road to health as well as providing support to the primary caregiver. The first Thousand Days program also has a specialized focus on fathers, in partnership with Sikunye."
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="30dp"
+                android:layout_marginLeft="20dp"
+                tools:layout_editor_absoluteY="559dp"
+                tools:ignore="MissingConstraints"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
